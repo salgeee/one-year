@@ -51,7 +51,9 @@
 
   @media (max-width: 720px) {
    .spotify{
-     width: 50%;
+     width: 85%;
+     height: 160px;
+
    }
   }
 }
