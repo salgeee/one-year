@@ -15,7 +15,7 @@ register();
       autoplay-delay="3000"
       navigation="true"
       pagination="true"
-      style="width: 50%; height: 30%; display: flex; align-items: center; justify-content: center;
+      style="width: 100%; height: 30%; display: flex; align-items: center; justify-content: center;
       ">
       <swiper-slide *ngFor="let image of images"  style="display: flex; align-items: center; justify-content: center;">
         <img [src]="image" alt="Story image" style="width: 360px; height: 640px; object-fit: cover; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">

@@ -44,11 +44,15 @@
     text-align: center;
   }
 
-
-
   .h3-principal-field img{
     max-width: 1.17em;
     max-height: 1.17em;
+  }
+
+  @media (max-width: 720px) {
+   .spotify{
+     width: 50%;
+   }
   }
 }
 
