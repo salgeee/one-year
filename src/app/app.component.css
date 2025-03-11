@@ -48,13 +48,34 @@
     max-width: 1.17em;
     max-height: 1.17em;
   }
+  @media (max-width: 1500px) {
+    .spotify{
+      width: 30%;
+      height: 160px;
 
+    }
+  }
+  @media (max-width: 1300px) {
+    .spotify{
+      width: 35%;
+      height: 160px;
+
+    }
+  }
   @media (max-width: 720px) {
    .spotify{
-     width: 85%;
+     width: 60%;
      height: 160px;
 
    }
   }
+  @media (max-width: 590px) {
+    .spotify{
+      width: 85%;
+      height: 160px;
+
+    }
+  }
+
 }
 
