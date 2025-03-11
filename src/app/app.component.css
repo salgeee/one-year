@@ -6,9 +6,11 @@
 .header {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 30px;
   max-width: 100%;
   align-items: center;
+  margin-top: 1.17rem;
+  margin-bottom: 2%;
 }
   .swiper-button-prev, .swiper-button-next {
     display: none;
