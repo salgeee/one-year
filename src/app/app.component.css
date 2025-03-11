@@ -1,0 +1,52 @@
+.one-year{
+  background-color: #0e2a4e;
+  font-family: Raleway, sans-serif;
+  color: white;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 100%;
+  align-items: center;
+}
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
+
+  .white-line {
+    max-width: 1000px;
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+  }
+  .principal-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 100%;
+    align-items: center;
+  }
+  .h3-principal-field{
+    margin-bottom: 0;
+  }
+
+  .paragrafo {
+    display: flex;
+    flex-direction: column; /* Para manter o conteúdo em coluna */
+    align-items: center;    /* Centraliza os itens horizontalmente */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+
+
+  .h3-principal-field img{
+    max-width: 1.17em;
+    max-height: 1.17em;
+  }
+}
+

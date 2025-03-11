@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'swiper/css';
+:root {
+  /* Define a cor desejada para as setas */
+  --swiper-navigation-color: white;
+}
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #0e2a4e;
+
+}
+
